@@ -1,0 +1,40 @@
+.features-container {
+  background: #082a47;
+  color: white;
+  text-align: center;
+  padding: 2rem;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.subtitle {
+  margin-bottom: 2rem;
+  font-size: 1.2rem;
+  color: #d0d0d0;
+}
+
+.feature-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 2rem;
+  margin-top: 2rem;
+}
+
+.feature-item {
+  background: #0b3a5b;
+  padding: 1.5rem;
+  border-radius: 10px;
+  transition: transform 0.3s;
+}
+
+.feature-item:hover {
+  transform: translateY(-5px);
+}
+
+.feature-item h2 {
+  font-size: 1.4rem;
+  margin-bottom: 0.5rem;
+}
+
+.feature-item p {
+  font-size: 1rem;
+}

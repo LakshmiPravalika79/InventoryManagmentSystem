@@ -1,0 +1,32 @@
+package ims.controller;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.web.bind.annotation.CrossOrigin;
+import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.RequestBody;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RestController;
+
+import ims.model.Users;
+import ims.model.UsersManager;
+
+@RestController
+@RequestMapping("/users")
+@CrossOrigin(origins="http://localhost:5173")
+public class Usersontroller {
+	@Autowired
+	UsersManager UM;
+	@PostMapping("/signup")
+	public String signUp(@RequestBody Users U) {
+		return UM.addUser(U);
+	}
+	 "Login successful"; // You can return a token or user details here if needed
+	}
+	@PostMapping("/signin")
+	public String signInString(@RequestBody Users U) {
+	    return UM.signIn(U);
+	}
+
+
+
+}
