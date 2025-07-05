@@ -1,0 +1,49 @@
+.inventory-page {
+  padding: 2rem;
+  font-family: Arial, sans-serif;
+}
+
+.inventory-controls input {
+  padding: 0.5rem;
+  width: 250px;
+  margin-bottom: 1rem;
+}
+
+.add-form {
+  display: flex;
+  gap: 0.5rem;
+  margin-bottom: 1rem;
+}
+
+.add-form input {
+  padding: 0.4rem;
+  width: 150px;
+}
+
+.add-form button {
+  padding: 0.5rem 1rem;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.inventory-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.inventory-table th,
+.inventory-table td {
+  border: 1px solid #ccc;
+  padding: 0.75rem;
+  text-align: left;
+}
+
+.delete-btn {
+  background-color: red;
+  color: white;
+  border: none;
+  padding: 0.3rem 0.6rem;
+  cursor: pointer;
+}

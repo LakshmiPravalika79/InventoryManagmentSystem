@@ -1,0 +1,13 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden; /* Hide horizontal overflow */
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; 
+    overflow-y: auto; /* Allow vertical scroll if content overflows */
+}
