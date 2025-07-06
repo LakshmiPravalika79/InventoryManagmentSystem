@@ -240,7 +240,7 @@ export class Projecthomepage extends Component {
                     </div>
                     <div className='right-section'>
                       <div className='signin-form'>
-                        <h2>Welcome to STOCK SAVVY!</h2>
+                        <h2>Welcome to Inventory Pro!</h2>
                         <p className='subtitle'>"Your Inventory, Your Way"</p>
                         <form onSubmit={this.handleSignUp}>
                           <div className='form-group'>
