@@ -165,14 +165,6 @@ mvn test
 
 ---
 
-## 🌐 Live Demo (Optional)
-
-| Service     | Link (example)                       |
-|-------------|--------------------------------------|
-| Backend API | https://ims-api.onrender.com         |
-| Frontend UI | https://ims-frontend.netlify.app     |
-
----
 
 ## 📬 Connect
 
