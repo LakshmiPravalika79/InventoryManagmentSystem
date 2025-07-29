@@ -95,7 +95,7 @@
                         <outputDirectory>${project.build.outputDirectory}/static</outputDirectory>
                         <resources>
                             <resource>
-                                <directory>../../frontend-react/build</directory>
+                                <directory>../../Frontend/InventoryManagementSystem/dist</directory>
                                 <filtering>false</filtering>
                             </resource>
                         </resources>
