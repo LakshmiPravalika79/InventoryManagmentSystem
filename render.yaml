@@ -1,0 +1,13 @@
+services:
+  - type: web
+    name: inventory-system
+    runtime: java
+    plan: free
+    region: singapore
+    envVars:
+      - key: JAVA_VERSION
+        value: 21
+    envGroup: inventory-secrets
+    rootDir: Backend/InventoryManagementSystem
+    buildCommand: ./mvnw clean install -DskipTests
+    startCommand: java -jar target/InventoryManagementSystem-0.0.1-SNAPSHOT.jar
